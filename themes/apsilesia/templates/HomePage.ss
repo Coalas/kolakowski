@@ -20,7 +20,13 @@
 <div class="row">
 	<header>
     	
-        <div class="logo col_16 col"><img class="left" src="$ThemeDir/images/kolakowski2_03.jpg"/><div class="left" id="banner"><img  src="$ThemeDir/images/kolakowski2_04.jpg"/></div><img class="right" src="$ThemeDir/images/kolakowski2_05.jpg"/></div><!-- logo col_7 -->
+        <div class="logo col_16 col">
+        <div style="position:absolute; z-index:20;margin-left:57px;" ><img src ="$ThemeDir/images/kolakowski2_04.png"/></div>
+        <img class="left" src="$ThemeDir/images/kolakowski2_03.jpg"/>
+        <div class="left" id="banner" style="height: 252px; width: 671px;" >
+        <img  src="$ThemeDir/images/kolakowski2_04.jpg"/><img  src="$ThemeDir/images/kolakowski2_04b.jpg"/>
+        </div>
+        <img class="right" src="$ThemeDir/images/kolakowski2_05.jpg"/></div><!-- logo col_7 -->
         <div class="clear"></div><div class="Menu col_16 col">
    <% include Navigation %>
 </div>
@@ -30,30 +36,37 @@
 </div><!-- row -->
 <!-- this section shows you most of the styled elements from the general stylesheet -->
 <!-- this section shows you most of the styled elements from the general stylesheet -->
-<section class="row" id="styled">
+<section class="row " id="styled">
     
     <div class="col col_11 ">
     <div class="col col_10 space">
       <img class="left" src="$ThemeDir/images/kolakowski2_09.jpg"/>
-      <blockquote class="left">Szanowni Państwo .... </blockquote>
+      <blockquote >$SiteConfig.Tagline </blockquote>
     </div>
-        <article>  
+    <div class="clear"></div>
+    <div class="pressed">
+        
         	 <% control LatestNews %>
+        	 <article >  
         	 <div class="titleimage">
+        	 $TitleImage
         	 </div>
-        	 <div class="date">
+        	 
+				<a href="$Link"><h3>$Title</h3></a>
+				<div class="date">
+				Autor: $Author
                 <span class="day">$Date.format(d)</span>
                 <span class="month">$Date.FormatI18N(%b) </span>
                 <span class="year">$Date.format(Y)</span>
-             </div>
-				<a href="$Link"><h3>$Title</h3></a>
+                </div>
 				<p>$Content.LimitWordCount(30) </p>
 				<a href="$Link" class="more">czytaj więcej &rarr;</a>
 				<div class="clear"></div>
+				</article>
 			<% end_control %> 
-        </article>
+        
         <!-- -->
-
+	</div>
     </div><!-- col_11 -->
   <div class="col col_5">
   	  <div class="side_element photo">

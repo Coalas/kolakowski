@@ -4,7 +4,7 @@
 body {
   background:#e0d3b1 url(../images/kolakowski2_01.jpg);
   color:#000;
-  font:12px Arial, Helvetica, sans-serif;
+  font:0.7em Verdana, Arial, Helvetica, sans-serif;
   position:relative;
 }
 .Menu { padding:0; margin:0; height:36px; float:left;}
@@ -36,7 +36,7 @@ body {
 .Footer { padding:0; margin:0; text-align:center; background:#181818;}
 .Footer p { line-height:12px; color:#9d9d9d; padding:10px 0; margin:0; font:normal 11px Tahoma, Arial;}
 .Footer a { color:#9d9d9d; text-decoration:underline;}
-#bar {color:#e2d6b6;height:20px;}
+
 /* ** ** Common Addative Classes ** ** */
 .left, .float_left  { float:left	}
 .right, .float_right { float:right	}

@@ -1,16 +1,32 @@
-<div id="contact" class="typography" style="float:left; width:400px;">
-
-	<h1>$Title</h1>
-	
-	<% if Success %>
+<section class="row " id="styled">
+    
+    <div class="col col_10 ">
+   
+  
+    <div class="pressed">
+        
+        	 
+        	 <article >  
+        	
+        	 
+				<a href="$Link"><h3>$Title</h3></a>
+				
+				<p> 
+				<% if Success %>
 		$SubmitText
 	<% else %>
 	$Content
 	
-	<% end_if %>
-	
-</div>
-<div id="content" class="typography" style="float:left; width:350px;" >
-		
-		$ContactForm
-	</div>	
+	<% end_if %></p>
+				<div class="clear"></div>
+				</article>
+			
+        
+        <!-- -->
+	</div>
+    </div><!-- col_10 -->
+  <div class="col col_6">
+  	  $ContactForm
+    </div><!-- col_6 -->
+</section><!-- row -->
+

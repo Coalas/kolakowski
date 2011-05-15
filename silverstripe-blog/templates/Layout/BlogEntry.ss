@@ -1,5 +1,17 @@
-<% include BlogSideBar %>
-<div id="BlogContent" class="typography">
+<section class="row " id="styled">
+    
+    <div class="col col_11 ">
+   
+  
+    <div class="pressed">
+        
+        	 
+        	 <article >  
+        	
+        	 
+				
+				
+    <div id="BlogContent" class="typography">
 	<% include BreadCrumbs %>
 	
 	<div class="blogEntry">
@@ -25,3 +37,18 @@
 	<% end_if %>
 	$PageComments
 </div>
+			
+				<div class="clear"></div>
+				</article>
+			
+        
+        <!-- -->
+	</div>
+    </div><!-- col_11 -->
+  <div class="col col_5">
+  	  <div class="side_element">
+               <% include BlogSideBar %>
+              
+            </div><!-- side_element -->
+    </div><!-- col_5 -->
+</section><!-- row -->

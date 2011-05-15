@@ -18,7 +18,7 @@ class HomePage_Controller extends Page_Controller {
 		Requirements::javascript("http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js");
 		Requirements::javascript("http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.2.74.js");
 		Requirements::customScript('$(document).ready(function() {
-		jQuery(".slideshow").cycle({
+		jQuery("#banner").cycle({
 		fx: "fade" 
 					});
 		});');
