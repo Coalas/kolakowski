@@ -1,0 +1,21 @@
+header {padding-top:0px;  margin: 0 0 10px 0; height: 290px;}
+header nav ul {float:right;}
+header nav ul li {float:left;}
+header nav ul li a {display:block; padding:5px 15px; border-right:1px solid #eee; font-size:1.052em; font-family:Georgia, "Times New Roman", Times, serif; text-decoration:none;}
+header nav ul li a:hover {background-color:#eee; border-right:1px solid #ccc; text-shadow:-1px -1px 0px #fff;}
+header nav ul li:last-child a {border-right:none;}
+article {border-bottom:2px solid #ccc; margin-bottom:10px; padding-bottom:10px;}
+article a h3 {border-bottom:2px solid #eee;}
+article a {text-decoration:none;}
+article .date {display:block; float:left; border:1px dashed #ccc; margin-right:15px; margin-bottom:10px; background-color:#fff;}
+article .date .day {font-family:Georgia, "Times New Roman", Times, serif; font-size:2.5em; text-align:center; display:block; padding:1px 10px;}
+article .date .month {font-family:Arial, Helvetica, sans-serif; background-color:#eee; border-top:1px dashed #ccc; border-bottom:1px dashed #ccc; font-weight:600; color:#525252;  display:block; text-align:center; padding:3px;}
+article .date .year {font-family:Verdana, Geneva, sans-serif; font-size:10px; text-align:center; color:#ccc; display:block;}
+article .more {display:block; float:right; background-color:#eee; text-decoration:none; padding:3px;}
+ul.recent {list-style:none; margin:0px; padding:0px;}
+ul.recent li {margin-bottom:5px; font-size:1.052em; border-bottom:1px solid #eee; padding-bottom:5px;}
+.side_element {margin-bottom:5px; padding-bottom:5px; border-bottom:1px dashed #ccc;}
+.photo {height: 250px; width: 258px; background: url(../images/kolakowski2_12.png) 0 40px no-repeat;}
+.vid {height: 255px; width: 258px; background: url(../images/kolakowski2_18.png) 0 40px no-repeat;}
+h2 {border-bottom:1px dashed #ccc;}
+footer {margin:0; padding:0; background:#323232 url(../images/kolakowski2_22.jpg) top repeat-x; outline: 1px solid #111;	border-top: 1px solid #555;}

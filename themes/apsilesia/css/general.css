@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* 52framework General StyleSheet - contains styles for all the HTML elements this framework supports */
+
+body {
+  background:#e0d3b1 url(../images/kolakowski2_01.jpg);
+  color:#000;
+  font:12px Arial, Helvetica, sans-serif;
+  position:relative;
+}
+.Menu { padding:0; margin:0; height:36px; float:left;}
+.Menu ul { list-style:none; margin:0; padding:0 0 0 10px;}
+.Menu ul li { padding:8px 0; margin:0 auto; float:left; line-height:18px;}
+.Menu ul li a {
+	padding:8px;
+	outline:0;
+	background:none;
+	color:#dcd8c0;
+	line-height:18px;
+	text-transform:none;
+	font-family: Arial, "Times New Roman", Times, serif;
+	font-size: 12px;
+        font-weight: bold;
+}
+.Menu ul li a:hover {color:#fff; background: #cc0000;}
+/**/ * html .FBG  {  } /**/
+/* Footer ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.FBG { margin:0; padding:0; background:#323232 url(../images/bg_foot.jpg) top repeat-x; }
+.FBG_blog { width:910px; height:100px;margin:0 auto; color:#9D9D9D;padding:20px; background:#545454 url(../images/kolakowski2_24.jpg) no-repeat top right;}
+.FBG_blog .address{ letter-spacing:0px; padding:10px; margin:0; font:bold 12px Georgia, "Times New Roman", Times, serif; }
+.FBG_blog p { background:#5a5a5a; padding:10px; margin:10px 0 0 0; color:#c8c8c8; font:normal 11px Georgia, "Times New Roman", Times, serif;}
+.FBG_blog ul { padding:0; list-style:none; margin:0; background:#5a5a5a;}
+.FBG_blog ul li { padding:7px 10px 7px 20px; margin:0 10px; border-bottom:1px solid #424242; color:#c8c8c8; font:bold 11px Georgia, "Times New Roman", Times, serif; background:url(images/bg_li_recent.gif) no-repeat left;}
+.FBG_blog ul li a { color:#c8c8c8; font:normal 11px Georgia, "Times New Roman", Times, serif; }
+
+/* Recent ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.Footer { padding:0; margin:0; text-align:center; background:#181818;}
+.Footer p { line-height:12px; color:#9d9d9d; padding:10px 0; margin:0; font:normal 11px Tahoma, Arial;}
+.Footer a { color:#9d9d9d; text-decoration:underline;}
+#bar {color:#e2d6b6;height:20px;}
+/* ** ** Common Addative Classes ** ** */
+.left, .float_left  { float:left	}
+.right, .float_right { float:right	}
+.space {margin-bottom: 10px;}
+.clear { clear:both; display:block; overflow:hidden; visibility:hidden; height:0px;}
+.clear-left, .clear_left { clear:left; } .clear-right, .clear_right { clear:right; }
+.hide  { display:none	} .block {display:block !important;} .inline {display:inline !important;}
+
+.align_right    { text-align:right;	  }
+.align_left     { text-align:left;	  }
+.align_center   { text-align:center;  }
+.align_justify  { text-align:justify; }
+
+.bold {font-weight:600;}
+.italic {font-style:italic;}
+
+a {	color:#525252;	}
+a:hover, a:focus { text-decoration:underline;}
+a:active, a:visited { }
+
+blockquote {
+		font-family: Georgia,"Times New Roman", Times, serif; 
+		margin:5px; 
+		padding:10px;
+		font-size:1.52em; 
+		color:#666666;
+		font-style:italic; 
+		line-height:1.3em; 
+		width:100%; 
+		quotes:none;
+	}
+	blockquote.left {border-right:1px dashed #ccc; width:35%;} /* float blockquote left, and set width */
+	blockquote.right {border-left:1px dashed #ccc; width:35%;} /* float blockquote right and set a width */
+
+/* ** ** Header Styles ** ** */
+h1, h2, h3, h4, h5 {margin:0 0 0.5em; line-height:1.1em;}
+h1 {	font-size:2.52em;} 
+h2 {	font-size:1.952em;} 
+h3 {	font-size:1.652em;} 
+h4 {	font-size:1.452em;} 
+h5 {	font-size:1.252em;} 
+h6 {	font-size:1.52em;}
+
+/* ** ** ul li's ** ** */
+ul{
+  list-style:outside disc;
+}
+ul,ol{
+  margin:0 0 1.5em 1.5em;
+  padding:0;
+}
+li ul,li ol{
+  padding:0;
+  margin:0 0 1.5em 1.5em;
+}
+
+
+/* ** ** custom select color ** ** */
+::selection {
+	background: #525252; /* Safari */
+	}
+::-moz-selection {
+	background: #525252; /* Firefox */
+	color:#fff;
+}
+/* ** ** paragraph styling ** ** */
+p {margin:0 0 1.52em;}
+	p img.left {float:left;margin:1.52em 1.52em 1.52em 0;padding:0;}
+	p img.right {float:right;margin:1.52em 0 1.52em 1.52em;}
+
+strong   		{   font-weight:600;}
+em, dfn  		{   font-style:italic;}
+dfn 	 		{   font-weight:600;}
+sup, sub 		{   line-height:0;}
+abbr, acronym           {   border-bottom:1px dashed #ccc;}
+address 		{   margin:0 0 1.5em;font-style:italic;}
+del 			{   color:#666;}
+pre, code, tt           {   font:1em 'andale mono', 'lucida console', monospace;line-height:1.5; display:block;}
+code 			{   background-color:#eee; display:inline; padding:0px 2px 1px 2px; line-height:1.1em;}
+pre 			{   margin:1.5em 0;white-space:pre;}
+
+
+
