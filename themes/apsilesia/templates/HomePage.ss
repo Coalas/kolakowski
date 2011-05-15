@@ -37,44 +37,23 @@
       <img class="left" src="$ThemeDir/images/kolakowski2_09.jpg"/>
       <blockquote class="left">Szanowni Państwo .... </blockquote>
     </div>
-        <article>    
-        	<div class="date">
-                <span class="day">16</span>
-                <span class="month">Mar</span>
-                <span class="year">2010</span>
-            </div>
-            <a href="article.html"><h3>Making an infinite JQuery carousel</h3></a>
-            <p>Duis ac arcu ante, at lacinia dui. Ut eget justo in nulla rutrum mollis. Mauris euismod justo et smod justo  smod justo  quam bibendum laoreet volutpat lorem mollis. In hac habitasse platea dictumst.
-             Mauris ut eleifend neque. Duis nulla metus, tempus nec varius quis, tincidunt consectetur nisi. Donec rhoncus quam vel quam bibendum rutrum. Mauris et commodo felis. Nam varius eleifend nulla quis sagittis. Quisque id tortor at dolor dictum interdum.</p>
-             <a href="article.html" class="more">read more &rarr;</a>
-             <div class="clear"></div>
-        </article>
-        <!-- -->
         <article>  
-        	<div class="date">
-                <span class="day">23</span>
-                <span class="month">Jan</span>
-                <span class="year">2011</span>
-            </div>  
-            <a href="article.html"><h3>jQuery and Ajax :) the simple designer way</h3></a>
-            <p>This is really short text.</p>
-             <a href="article.html" class="more">read more &rarr;</a>
-             <div class="clear"></div>
+        	 <% control LatestNews %>
+        	 <div class="titleimage">
+        	 </div>
+        	 <div class="date">
+                <span class="day">$Date.format(d)</span>
+                <span class="month">$Date.FormatI18N(%b) </span>
+                <span class="year">$Date.format(Y)</span>
+             </div>
+				<a href="$Link"><h3>$Title</h3></a>
+				<p>$Content.LimitWordCount(30) </p>
+				<a href="$Link" class="more">czytaj więcej &rarr;</a>
+				<div class="clear"></div>
+			<% end_control %> 
         </article>
         <!-- -->
-        <article>    
-        	<div class="date">
-                <span class="day">09</span>
-                <span class="month">Sep</span>
-                <span class="year">2010</span>
-            </div>
-            <a href="article.html"><h3>Create an AMAZING contact form with no ready made plugins</h3></a>
-            <p>Duis ac arcu ante, at lacinia dui. Ut eget justo in nulla rutrum mollis. Mauris euismod justo et smod justo  smod justo  quam bibendum laoreet volutpat lorem mollis. In hac habitasse platea dictumst.
-             Mauris ut eleifend neque. Duis nulla metus, tempus nec varius quis, tincidunt consectetur nisi. Donec rhoncus quam vel quam bibendum rutrum. Mauris et commodo felis. Nam varius eleifend nulla quis sagittis. Quisque id tortor at dolor dictum interdum.</p>
-             <a href="article.html" class="more">read more &rarr;</a>
-             <div class="clear"></div>
-        </article>
-        <!-- -->
+
     </div><!-- col_11 -->
   <div class="col col_5">
   	  <div class="side_element photo">

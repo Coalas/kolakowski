@@ -24,4 +24,8 @@ class HomePage_Controller extends Page_Controller {
 		});');
 
 	}
+	public function LatestNews($number=3) {
+		$holder = DataObject::get_one('BlogHolder');
+		return DataObject::get('BlogEntry', "ParentID = {$holder->ID}","Created DESC", false, $number);
+	} 
 }

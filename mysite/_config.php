@@ -21,6 +21,7 @@ SSViewer::set_theme('blackcandy');
 
 // Set the site locale
 i18n::set_locale('pl_PL');
-
+setlocale(LC_TIME, 'pl_PL', 'pl_PL.UTF8', 'polish'); //
 // enable nested URLs for this site (e.g. page/sub-page/)
 SiteTree::enable_nested_urls();
+Object::add_extension('BlogEntry', 'BlogEntryDecorator');
