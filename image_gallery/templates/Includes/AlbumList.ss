@@ -14,7 +14,7 @@
 				</a>
 			</div>
 			<div class="galleryDetails">
-				<h5><a href="$Link" title="$Title">$AlbumName</a> ($ImageCount fotografi)</h5>
+				<h5><a href="$Link" title="$Title">$AlbumName</a> ($ImageCount fot.)</h5>
 				<div class="galleryDescription">$Description.LimitWordCount(60)</div>	
 			</div>
 			</li>

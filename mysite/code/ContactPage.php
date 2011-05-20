@@ -87,9 +87,9 @@ class ContactPage_Controller extends Page_Controller
 		parent::init();
 		Validator::set_javascript_validation_handler('none');  
 		//Requirements::javascript("sapphire/thirdparty/jquery/jquery-packed.js"); 
-		Requirements::javascript("http://www.google.com/jsapi?key=ABQIAAAAdehNDAxA7PP_p_gGwfWVHRRkuAh3IcgAYnTTakPcaoWNtN3vChQWB5e-rxahxjYrbS1hbwCSHOHiNg"); 
-		Requirements::javascript("sapphire/thirdparty/googlemapsjs/mapsloader.js");
-		Requirements::javascript("http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js");
+		//Requirements::javascript("http://www.google.com/jsapi?key=ABQIAAAAdehNDAxA7PP_p_gGwfWVHRRkuAh3IcgAYnTTakPcaoWNtN3vChQWB5e-rxahxjYrbS1hbwCSHOHiNg"); 
+		//Requirements::javascript("sapphire/thirdparty/googlemapsjs/mapsloader.js");
+		//Requirements::javascript("http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js");
 		Requirements::javascript("http://ajax.microsoft.com/ajax/jquery.validate/1.7/jquery.validate.min.js");
 		Requirements::customScript('
         jQuery(document).ready(function() {

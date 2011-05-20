@@ -237,7 +237,8 @@ class BlogEntry_Controller extends Page_Controller {
 
 	function init() {
 		parent::init();
-		
+		PageCommentInterface::set_use_ajax_commenting(false);
+		Validator::set_javascript_validation_handler('none'); 
 		Requirements::themedCSS('blog');
 	}
 	

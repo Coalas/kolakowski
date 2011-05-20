@@ -7,21 +7,20 @@
 		$MetaTags(false)
 		<link rel="shortcut icon" href="/favicon.ico" />
 		
-		<% require themedCSS(typography) %> 
+		<% require themedCSS(forms) %> 
 		<% require themedCSS(style) %> 
 		<% require themedCSS(grid) %> 
-		<!--[if IE 6]>
-			<style type="text/css">
-			 @import url(themes/apsilesia/css/ie6.css);
-			</style> 
-		<![endif]-->
+		<!-- this script is needed for using advanced css selectors in your css -->
+    <!--[if (gte IE 6)&(lte IE 8)]>
+    	<script src="$ThemeDir/js/selectivizr.js"></script>
+    <![endif]-->  
 	</head>
 <body>
 <div class="row">
 	<header>
     	
         <div class="logo col_16 col">
-        <div style="position:absolute; z-index:20;margin-left:57px;" ><img src ="$ThemeDir/images/kolakowski2_04.png"/></div>
+        <div id="kolakowski"><img src="$ThemeDir/images/kolakowski.png"/></div>
         <img class="left" src="$ThemeDir/images/kolakowski2_03.jpg"/>
         <div class="left" id="banner" style="height: 252px; width: 671px;" >
         <img  src="$ThemeDir/images/kolakowski2_04.jpg"/><img  src="$ThemeDir/images/kolakowski2_04b.jpg"/>

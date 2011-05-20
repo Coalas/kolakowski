@@ -7,7 +7,7 @@
 		$MetaTags(false)
 		<link rel="shortcut icon" href="/favicon.ico" />
 		
-		<% require themedCSS(typography) %> 
+		<% require themedCSS(form) %> 
 		<% require themedCSS(style) %> 
 		<% require themedCSS(grid) %> 
 		<!--[if IE 6]>
@@ -20,7 +20,9 @@
 <div class="row">
 	<header>
     	
-        <div class="logo col_16 col"><img class="left" src="$ThemeDir/images/kolakowski2_03.jpg"/><div class="left" id="banner" style="height: 252px; width: 671px;" ><img  src="$ThemeDir/images/kolakowski2_04.jpg"/>
+        <div class="logo col_16 col">
+        <div id="kolakowski"><img src="$ThemeDir/images/kolakowski.png"/></div>
+        <img class="left" src="$ThemeDir/images/kolakowski2_03.jpg"/><div class="left" id="banner" style="height: 252px; width: 671px;" ><img  src="$ThemeDir/images/kolakowski2_04.jpg"/>
         <img  src="$ThemeDir/images/kolakowski2_04b.jpg"/>
         </div>
         <img class="right" src="$ThemeDir/images/kolakowski2_05.jpg"/></div><!-- logo col_7 -->

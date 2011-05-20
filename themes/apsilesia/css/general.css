@@ -104,8 +104,8 @@ li ul,li ol{
 }
 /* ** ** paragraph styling ** ** */
 p {margin:0 0 1.52em;}
-	p img.left {float:left;margin:1.52em 1.52em 1.52em 0;padding:0;}
-	p img.right {float:right;margin:1.52em 0 1.52em 1.52em;}
+p img.left {float:left;margin:0 1em 1em 0;padding:0;}
+p img.right {float:right;margin:1em 0 1em 1em;}
 
 strong   		{   font-weight:600;}
 em, dfn  		{   font-style:italic;}

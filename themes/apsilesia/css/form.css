@@ -115,7 +115,7 @@ select {
 ---------------------------------------- */
 .typography label {
  	display: block;
-	margin: 10px 0 -10px 0;
+	margin: 10px 0 10px 0;
 	color: #777;
 	font-size: 12px;
 }

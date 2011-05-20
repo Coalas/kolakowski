@@ -16,12 +16,12 @@ class TagCloudWidget extends Widget {
 	static $belongs_many_many = array();
 	
 	static $defaults = array(
-		"Title" => "Tag Cloud",
+		"Title" => "Chmura tagów",
 		"Limit" => "0",
 		"Sortby" => "alphabet"
 	);
 	
-	static $cmsTitle = "Tag Cloud";
+	static $cmsTitle = "Chmura tagów";
 	static $description = "Shows a tag cloud of tags on your blog.";
 
 	static $popularities = array( 'not-popular', 'not-very-popular', 'somewhat-popular', 'popular', 'very-popular', 'ultra-popular' );
@@ -43,7 +43,7 @@ class TagCloudWidget extends Widget {
 	}
 	
 	function Title() {
-		return $this->Title ? $this->Title : 'Tag Cloud';
+		return $this->Title ? $this->Title : 'Chmura tagów';
 	}
 	
 	function TagsCollection() {

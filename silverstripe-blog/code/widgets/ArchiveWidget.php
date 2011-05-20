@@ -22,7 +22,7 @@ class ArchiveWidget extends Widget {
 		'DisplayMode' => 'month'
 	);
 	
-	static $title = 'Browse by Date';
+	static $title = 'Archiwum';
 
 	static $cmsTitle = 'Blog Archive';
 	

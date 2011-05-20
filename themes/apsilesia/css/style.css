@@ -14,7 +14,7 @@ article .date .year {font-family:Verdana, Geneva, sans-serif; font-size:10px; te
 article .more {display:block; float:right; text-decoration:none; padding:3px;}
 article .more:hover {color:#9d9d9d;}
 article img {float:left;}
-article .titleimage {height: 163px; width: 165px; background: url(../images/kolakowski2_14.jpg) 0 0 no-repeat; display:block; float:left;  margin-right:15px; margin-bottom:10px; background-color:#fff;}
+article .titleimage {height: 163px; width: 165px; background: #e0d3b1 url(../images/kolakowski2_14.jpg) 0 0 no-repeat; display:block; float:left;  margin-right:15px; margin-bottom:10px; background-color:#fff;}
 article  .titleimage img {margin:6px 3px 3px 9px;}
 .PostDate { padding:5px 10px 5px 50px; border-top:1px solid #000; border-bottom:1px solid #000; margin:0 0 0 10px;}
 ul.recent {list-style:none; margin:0px; padding:0px;}
@@ -26,6 +26,7 @@ ul.recent li {margin-bottom:5px; font-size:1.052em; border-bottom:1px solid #eee
 h2 {border-bottom:1px dashed #ccc;}
 footer {margin:0; padding:0; background:#323232 url(../images/kolakowski2_22.jpg) top repeat-x; outline: 1px solid #111;	border-top: 1px solid #555;}
 #bar {color:#e2d6b6;height:20px;}
+#kolakowski {position:absolute; z-index:20;left:57px;top:0px;}
 .message {
   border-radius: 5px 5px 5px 5px;
   clear: both;
