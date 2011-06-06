@@ -26,7 +26,15 @@ ul.recent li {margin-bottom:5px; font-size:1.052em; border-bottom:1px solid #eee
 h2 {border-bottom:1px dashed #ccc;}
 footer {margin:0; padding:0; background:#323232 url(../images/kolakowski2_22.jpg) top repeat-x; outline: 1px solid #111;	border-top: 1px solid #555;}
 #bar {color:#e2d6b6;height:20px;}
-#kolakowski {position:absolute; z-index:20;left:57px;top:0px;}
+#kolakowski {position:absolute; z-index:20;right:48px;top:0px;}
+#logopis {position:absolute; z-index:20;left:0px;top:50px;}
+#podpis {
+	display:block;
+	color:#e2d6b6;
+	line-height: 25px;
+	font-size: 2em;
+	
+}
 .message {
   border-radius: 5px 5px 5px 5px;
   clear: both;
@@ -55,4 +63,5 @@ footer {margin:0; padding:0; background:#323232 url(../images/kolakowski2_22.jpg
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
+	zoom:1.0;
 }
