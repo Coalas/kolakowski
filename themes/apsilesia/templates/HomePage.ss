@@ -72,36 +72,28 @@
 	</div>
     </div><!-- col_11 -->
   <div class="col col_5">
-  	  <div class="side_element photo">
-                <h2>Galeria</h2>
-                	
-            </div><!-- side_element -->
-            <div class="side_element vid">
-            	<h2>Wideo</h2>
-              
-            </div><!-- side_element -->
+  	<div class="side_element photo">
+        <h2>Galeria</h2>
+        <div  id="gallery" style="height: 160px; width: 215px; margin-left:18px;margin-top:37px;" >
+	<% control GalleryItems %>
+	<img  src="$FileName"/>
+	<% end_control %>
+      
+        </div>	
+        </div><!-- side_element -->
+        <div class="side_element vid">
+        <h2>Wideo</h2>
+          <div  id="wideo" style="height: 142px; width: 225px; margin-left:14px;margin-top:50px;" >
+	 
+	<img  src="$ThemeDir/images/kacz.png" height="142px" width="225px"/>
+	 
+      
+        </div>	
+        </div><!-- side_element -->
     </div><!-- col_5 -->
 </section><!-- row -->
 <div id="bar" class="row"></div>
-<footer >
- <div  class="FBG_blog">
-  <div class="address">Komitet Prawo i Sprawiedliwość<br/>
-  ul. Pułtuska 9<br/>
-  06-400 Ciechanów<br/>
-  tel.:23 673 51 57<br/>
-</div>
-  <div class="clear"></div>
-  </div>
-  <div class="Footer">
-<!-- footer credits -->
-<div><p>
-<big>&copy; 2011 Prawo i Sprawiedliwość</big><br>
-<small><strong><a href="" style="color: #cccccc;text-decoration: none;">projekt i wykonanie</a> <a href="mailto:k.olszewski@o2.pl" style="color: #cccccc;text-decoration: none;">Krzysztof Olszewski</a></strong></small>
-</p></div>
-</div>
-<div class="clear"></div>
-	
-</footer>	
+<% include Footer %>
 
 
 </body>

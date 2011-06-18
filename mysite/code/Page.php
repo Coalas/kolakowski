@@ -39,14 +39,28 @@ class Page_Controller extends ContentController {
 		Requirements::themedCSS('general');
 		//Requirements::themedCSS('grid'); 
 		Requirements::themedCSS('style');
+		Requirements::themedCSS('video');
+		Requirements::themedCSS('vim');
 		
 		Requirements::javascript("http://c.fzilla.com/1286136086-jquery.js");
 		Requirements::javascript("themes/apsilesia/js/modernizr-1.7.min.js");
+		Requirements::javascript("themes/apsilesia/video/video.js");
 		Requirements::javascript("http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.2.74.js");
 		Requirements::customScript('$(document).ready(function() {
 		jQuery("#banner").cycle({
 		fx: "fade" 
 					});
+		jQuery("#gallery").cycle({
+		fx: "fade" 
+					});
+		$(function(){
+    	VideoJS.setupAllWhenReady();
+    })
+
 		});');
+	}
+public function GalleryItems($number=3) {
+		//$holder = DataObject::get_one('BlogHolder');
+		return DataObject::get('Image', 'ParentID = 32',"Created DESC", false, $number);
 	}
 }

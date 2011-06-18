@@ -1,4 +1,20 @@
-<div class="footerTop">
-	<!-- -->
+<footer >
+ <div  class="FBG_blog">
+  <div class="address">Biuro Poselskie Roberta Kołakowskiego<br/>
+  ul. Pułtuska 9<br/>
+  06-400 Ciechanów<br/>
+  tel.:23 673 51 57<br/>
 </div>
-<p>Copyright &copy; 2007-2008 | Powered by <a href="http://www.silverstripe.org" title="This site runs on the SilverStripe CMS">SilverStripe Open Source CMS</a></p>
+  <div class="clear"></div>
+  </div>
+  <div class="Footer">
+<!-- footer credits -->
+<div><p>
+<big>&copy; 2011 Robert Kołakowski</big><br>
+<small><strong><a href="" style="color: #cccccc;text-decoration: none;">projekt i wykonanie</a> <a href="mailto:k.olszewski@o2.pl" style="color: #cccccc;text-decoration: none;">Krzysztof Olszewski</a></strong></small>
+</p></div>
+</div>
+<div class="clear"></div>
+	
+</footer>
+

@@ -23,7 +23,12 @@
   <div class="col col_5">
   	  <div class="side_element photo">
                 <h2>Galeria</h2>
-                	
+                	<div  id="gallery" style="height: 160px; width: 215px; margin-left:18px;margin-top:37px;" >
+	<% control GalleryItems %>
+	<img  src="$FileName"/>
+	<% end_control %>
+      
+        </div>	
             </div><!-- side_element -->
             <div class="side_element vid">
             	<h2>Wideo</h2>
