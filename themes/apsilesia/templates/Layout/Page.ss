@@ -32,7 +32,11 @@
             </div><!-- side_element -->
             <div class="side_element vid">
             	<h2>Wideo</h2>
-              
+              <div  id="wideo" style="height: 142px; width: 225px; margin-left:14px;margin-top:50px;" >
+	 
+	<a href="#" data-reveal-id="theModal"><img  src="$ThemeDir/images/kacz.png"  height="142px" width="225px"/></a>
+      
+        </div>	
             </div><!-- side_element -->
     </div><!-- col_5 -->
 </section><!-- row -->

@@ -39,12 +39,13 @@ class Page_Controller extends ContentController {
 		Requirements::themedCSS('general');
 		//Requirements::themedCSS('grid'); 
 		Requirements::themedCSS('style');
-		Requirements::themedCSS('video');
+		Requirements::themedCSS('video-js');
 		Requirements::themedCSS('vim');
-		
+		Requirements::themedCSS('reveal');
 		Requirements::javascript("http://c.fzilla.com/1286136086-jquery.js");
 		Requirements::javascript("themes/apsilesia/js/modernizr-1.7.min.js");
 		Requirements::javascript("themes/apsilesia/video/video.js");
+		Requirements::javascript("themes/apsilesia/js/jquery.reveal.js");
 		Requirements::javascript("http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.2.74.js");
 		Requirements::customScript('$(document).ready(function() {
 		jQuery("#banner").cycle({
@@ -53,9 +54,9 @@ class Page_Controller extends ContentController {
 		jQuery("#gallery").cycle({
 		fx: "fade" 
 					});
-		$(function(){
+		
     	VideoJS.setupAllWhenReady();
-    })
+    
 
 		});');
 	}

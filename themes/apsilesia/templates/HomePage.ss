@@ -42,9 +42,12 @@
 <section class="row " id="styled">
     
     <div class="col col_11 ">
-    <div class="col col_10 space">
-      <img class="left" src="$ThemeDir/images/kolakowski2_09.jpg"/>
-      <blockquote >$SiteConfig.Tagline </blockquote>
+    <div class=" col_10 space">
+
+      
+      <blockquote ><img class="left" src="$ThemeDir/images/kolakowski2_09.jpg"/>$SiteConfig.Tagline.RAW </blockquote>
+
+      <div class="clear"></div>
     </div>
     <div class="clear"></div>
     <div class="pressed" hasLayout="true">
@@ -85,8 +88,7 @@
         <h2>Wideo</h2>
           <div  id="wideo" style="height: 142px; width: 225px; margin-left:14px;margin-top:50px;" >
 	 
-	<img  src="$ThemeDir/images/kacz.png" height="142px" width="225px"/>
-	 
+	<a href="#" data-reveal-id="theModal"><img  src="$ThemeDir/images/kacz.png"  height="142px" width="225px"/></a>
       
         </div>	
         </div><!-- side_element -->
@@ -94,7 +96,16 @@
 </section><!-- row -->
 <div id="bar" class="row"></div>
 <% include Footer %>
+<div id="theModal" class="reveal-modal" style="width:650px;">
 
+<object style="height: 390px; width: 640px">
+<param name="movie" value="http://www.youtube.com/v/v-EnoXZmX9A?version=3">
+<param name="allowFullScreen" value="true">
+<param name="allowScriptAccess" value="always">
+<embed id="playerid" name="playerid" src="http://www.youtube.com/v/v-EnoXZmX9A?enablejsapi=1&version=3&playerapiid=ytplayer" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="390">
+</object>
+    <a class="close-reveal-modal">&#215;</a>
+</div>
 
 </body>
 </html>
